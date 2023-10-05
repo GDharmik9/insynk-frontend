@@ -1,0 +1,96 @@
+.main-contanier{
+    height:calc(100vh - 98px);
+    overflow: hidden;
+    
+}
+
+.main-contanier h1, h2, h3, h4 {
+   margin: 0;
+}
+
+.tabcontent{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.content-container{
+    margin: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 80vh;
+}
+
+.content-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 4px solid #4b97f2;
+    color: #4b97f2;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.expenseDate{
+    font-size: 1rem;
+}
+
+.totalExpense{
+    font-size: 2rem;
+}
+
+.content-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.content-lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid #4b97f2;
+    padding: 10px;
+    font-weight: 600;
+    color: #4b97f2;
+}
+
+.displayGreen{
+    color: green;
+}
+
+.removeCategory{
+    color: red;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+
+.addCategory-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CategoryInput{
+    width: 100%;
+    border: 2px solid #4b97f2;
+    margin: 10px 0;
+    padding: 7.5px 10px;
+   
+}
+
+.CategoryInput:focus-visible{
+   outline: none;
+}
+
+.CategoryButton{
+    border: 2px solid #4b97f2;
+    padding: 7.5px 20px;
+    color: white;
+    background-color: #4b97f2;
+    border-radius: 3px;
+}

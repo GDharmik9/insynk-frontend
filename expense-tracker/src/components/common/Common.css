@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c4d7ee;
+    height: 50px;
+
+}
+
+.title{
+    color: #3e6390;
+    font-weight: 700;
+}
+
+
+.warpper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    width: 5%;
+}
+
+.addButton{
+    display: none;
+    background-color: #4b97f2;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+
+.header button.dispaly{
+    display: block;
+}
+
+.container{
+    display: flex;
+}
+
+.button-wrapper{
+    width: 90%;
+    
+}
+
+.button-wrapper button:hover{
+    background-color: #4b97f2;
+}
+
+.button-wrapper button.active {
+    background-color: #4b97f2;
+}
+
+.divider{
+    width: 5px;
+}
+
+.category-button, .expense-button {
+    background-color: #c4d7ee;
+    border: none;
+    padding: 15px;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
